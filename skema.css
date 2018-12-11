@@ -1,9 +1,13 @@
+
+
+
 .max400 {
     max-width: 400px;
     background-color: indianred;
     display: flex;
     flex-direction: column;
     position: absolute;
+    width: 100%;
 }
 
 table {
@@ -47,10 +51,32 @@ td {
 }
 
 .modul1 {
-    top: 200px;
-    left: 200px;
+    height: 40px;
+    width: 200px;
+    background-color: skyblue;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 100px;
+    left: 100px;
+    position: relative;
 }
 
 .solid {
-    border-style: solid;
+    font-size: 10px;
+    margin: 8px;
 }
+
+.modul2 {
+    height: 40px;
+    width: 200px;
+    background-color: lightcyan;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 120px;
+    left: 120px;
+    position: relative;
+}
+
+
