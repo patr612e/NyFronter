@@ -1,13 +1,15 @@
-
-
+body {
+    max-width: 400px;
+}
 
 .max400 {
     max-width: 400px;
-    background-color: indianred;
+    background-color: #ededed;
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 100%;
+    z-index: -1;
 }
 
 table {
@@ -17,32 +19,49 @@ table {
 
 th,
 td {
-    padding: 8px;
+    padding: 9px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-    color: #c1c1c1;
+    border-top: 1px solid #ddd;
+    color: #6a6868;
     font-size: 12px;
+}
+
+.skema {
+    position: relative;
+    top: -50px;
 }
 
 .burger {
     background-image: url(Artboard%20%E2%80%93%204.svg);
+    height: 30px;
+    width: 30px;
     z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .notifications {
-    background-image: url(Artboard%20%E2%80%93%205.svg)
+    background-image: url(Artboard%20%E2%80%93%205.svg);
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .profile {
-    background-image: url(Artboard%20%E2%80%93%206.svg)
+    background-image: url(Artboard%20%E2%80%93%206.svg);
+    position: relative;
 }
 
 .search {
-    background-image: url(Artboard%20%E2%80%93%203.svg)
+    background-image: url(Artboard%20%E2%80%93%203.svg);
+    position: relative;
 }
 
 .maaned {
-    padding-left: 30px;
+
     position: relative;
 }
 
@@ -51,32 +70,59 @@ td {
 }
 
 .modul1 {
-    height: 40px;
-    width: 200px;
-    background-color: skyblue;
+    height: 90px;
+    width: 150px;
+    background-color: rgba(255, 221, 217, 0.8);
     border-style: solid;
-    border: 2px solid black;
-    border-radius: 20px;
-    top: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    top: 103px;
     left: 100px;
     position: relative;
+    z-index: 1;
+}
+
+.modul1:hover {
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
 .solid {
     font-size: 10px;
-    margin: 8px;
+    margin: 5px;
 }
 
 .modul2 {
-    height: 40px;
-    width: 200px;
-    background-color: lightcyan;
+    height: 90px;
+    width: 150px;
+    background-color: rgba(130, 117, 131, 0.8);
     border-style: solid;
-    border: 2px solid black;
-    border-radius: 20px;
-    top: 120px;
+    border: 1px solid black;
+    border-radius: 6px;
+    top: 170px;
     left: 120px;
     position: relative;
+    z-index: 1;
 }
 
+.purple_baggrund {
+    height: 250px;
+    width: 400px;
+    background-color: rgba(130, 117, 131, 0.75);
+    position: relative;
+    z-index: 1;
 
+}
+
+.kunst {
+    background-image: url(Artboard%206.svg);
+    height: 25vw;
+    width: 400vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -370px;
+    width: 100%;
+
+
+}
