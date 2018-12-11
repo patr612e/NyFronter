@@ -1,6 +1,13 @@
+
+
+
 .max400 {
     max-width: 400px;
-    background-color: indianred
+    background-color: indianred;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 
 table {
@@ -15,5 +22,61 @@ td {
     border-bottom: 1px solid #ddd;
     color: #c1c1c1;
     font-size: 12px;
-
 }
+
+.burger {
+    background-image: url(Artboard%20%E2%80%93%204.svg);
+    z-index: 1;
+}
+
+.notifications {
+    background-image: url(Artboard%20%E2%80%93%205.svg)
+}
+
+.profile {
+    background-image: url(Artboard%20%E2%80%93%206.svg)
+}
+
+.search {
+    background-image: url(Artboard%20%E2%80%93%203.svg)
+}
+
+.maaned {
+    padding-left: 30px;
+    position: relative;
+}
+
+.forlob {
+    text-align: center;
+}
+
+.modul1 {
+    height: 40px;
+    width: 200px;
+    background-color: skyblue;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 100px;
+    left: 100px;
+    position: relative;
+}
+
+.solid {
+    font-size: 10px;
+    margin: 8px;
+}
+
+.modul2 {
+    height: 40px;
+    width: 200px;
+    background-color: lightcyan;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 120px;
+    left: 120px;
+    position: relative;
+}
+
+
