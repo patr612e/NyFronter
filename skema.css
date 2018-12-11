@@ -1,0 +1,19 @@
+.max400 {
+    max-width: 400px;
+    background-color: indianred
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #c1c1c1;
+    font-size: 12px;
+
+}
