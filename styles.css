@@ -116,17 +116,16 @@ input[type=password] {
 ---------------------------------------------------*/
 
 table {
-    table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
+
+
 }
 
-th {
-    background-color: var(--color-dark);
-    color: var(--color-light);
-}
-
+th,
 td {
-    border: 1px dashed var(--color-accent);
+    padding: 8px;
+    text-align: left;
 }
 
 
@@ -137,4 +136,21 @@ td {
 /*Login page*/
 .loginpage {
     background-color: var(--color-dark)
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: var (--color-light);
+}
+
+.max400 {
+    max-width: 400px;
 }
