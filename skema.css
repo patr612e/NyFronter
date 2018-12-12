@@ -1,13 +1,13 @@
 body {
-    max-width: 400px;
+    margin: 5px;
+    font-family: sans-serif;
 }
 
 .max400 {
-    max-width: 400px;
     background-color: #ededed;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: -1;
 }
@@ -28,17 +28,24 @@ td {
 }
 
 .skema {
-    position: relative;
-    top: -50px;
+    background-image: url(SKEMA.svg);
+    background-repeat: no-repeat;
+
+
+    height: 125vw;
+
+    width: 100%;
+
 }
 
 .burger {
     background-image: url(Artboard%20%E2%80%93%204.svg);
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     z-index: 1;
     position: relative;
     background-repeat: no-repeat;
+    margin: 5px;
 }
 
 .notifications {
@@ -63,66 +70,156 @@ td {
 .maaned {
 
     position: relative;
+    text-align: center;
 }
 
 .forlob {
     text-align: center;
+
 }
 
 .modul1 {
-    height: 90px;
+    height: 123px;
     width: 150px;
-    background-color: rgba(255, 221, 217, 0.8);
+    background-color: rgba(255, 221, 217, 0.6);
     border-style: solid;
     border: 1px solid black;
     border-radius: 6px;
-    top: 103px;
-    left: 100px;
+    top: 4px;
+    left: 130px;
     position: relative;
-    z-index: 1;
 }
 
 .modul1:hover {
-    background-color: aquamarine;
+    background-color: rgba(211, 123, 121, 0.7);
     cursor: pointer;
 }
 
 .solid {
-    font-size: 10px;
+    font-size: 11px;
     margin: 5px;
 }
 
 .modul2 {
-    height: 90px;
+    height: 123px;
     width: 150px;
-    background-color: rgba(130, 117, 131, 0.8);
+    background-color: rgba(130, 117, 131, 0.7);
     border-style: solid;
     border: 1px solid black;
     border-radius: 6px;
-    top: 170px;
-    left: 120px;
+    top: 20px;
+    left: 130px;
     position: relative;
     z-index: 1;
+}
+
+.modul3 {
+    height: 64px;
+    width: 150px;
+    background-color: rgba(255, 221, 217, 0.6);
+    border-style: solid;
+    border: 1px solid black;
+    border-radius: 6px;
+    top: 85px;
+    left: 130px;
+    position: relative;
 }
 
 .purple_baggrund {
-    height: 250px;
-    width: 400px;
+    background-image: url(Artboard%206.svg);
+    height: 220px;
+    background-repeat: no-repeat;
     background-color: rgba(130, 117, 131, 0.75);
+    background-blend-mode: soft-light;
     position: relative;
-    z-index: 1;
 
 }
 
-.kunst {
-    background-image: url(Artboard%206.svg);
-    height: 25vw;
-    width: 400vw;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: -370px;
+/*calendar*/
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Month header */
+.month {
+
+    padding: 10px px;
     width: 100%;
+    background: rgba(130, 117, 131, 0.7);
+    text-align: center;
+    height: 100px
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.uge49 {
+    padding-top: 10px;
+}
 
 
+/* Previous button inside month header */
+.month .prev {
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    padding-right: 10px;
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 40px
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #FFB4AA;
+    color: white !important
 }
