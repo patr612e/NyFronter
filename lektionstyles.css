@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    background-color: #6C586B;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin: 1rem;
+}
+
+
+#projekt {
+    background-color: #FEB0A6;
+    color: white;
+    height: 10em;
+    width: 25em; 
+ 
+    top: 10vw;
+}
+
+#lektier {
+    background-color: #FEB0A6;
+    color: white;
+    height: 10em;
+    width: 25em; 
+ 
+    top: 10vw;
+}
+
+#dokumenter {
+    background-color: #FEB0A6;
+    color: white;
+    height: 10em;
+    width: 25em; 
+ 
+    top: 10vw;
+}
+
+#streg {
+background-color: #6C586B;
+height: 10em;
+width: 2em; 
+}
