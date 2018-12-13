@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+a{
+    color: #FFFDFD;
+}
+#login{
+    height: 50px;
+}
+input{
+    border-radius: 5px;
+}
+input[type=text]{
+    width: 250px;
+    height: 29px;
+    margin: 13px;
+    background-color: #4E4150;
+    border: 0px;
+}
+input[type=password]{
+    width: 250px;
+    height: 29px;
+    margin: 13px;
+    margin-bottom: 0px;
+    background-color: #4E4150;
+    border: 0px;
+}
+input[type=submit]{
+    background-color: #D37B79;
+    margin-top: 30px;
+    border: 0px;
+}
+input[type=checkbox]{
+    position: absolute;
+
+}
+label{
+    position: absolute;
+    top:103px;
+    left: 180px;
+}
+.container{
+    height: 100vh;
+    background-color: #69596A;
+    position: relative;
+
+}
+.profilbillede img{
+    width: 100px;
+    position: absolute;
+    top: 220px;
+    left: 140px;
+}
+
+.sprogknap{
+    width:50px;
+    position: absolute;
+    z-index: 1;
+}
+.kunst{
+     max-width: 400px;
+     position: relative;
+
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 343px;
+    left: 65px;
+
+
+}
+
+.footer{
+    position: absolute;
+    top: 700px;
+    left: 75px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
