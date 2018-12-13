@@ -1,34 +1,147 @@
 .max400 {
     max-width: 400px;
     position: absolute;
+
+}
+
+h1{
+
+    font-size: 1em
+}
+
+body {
+
+    background-color: white;
 }
 
 
 
-.forside {}
 
-.kunst {
+#forside .sectionwrapper {
 
-    opacity: 0.3;
-    width: 56vw;
-    height: 30vw;
-    background-size: 100%;
-    top: 2vw;
-    left: 2vw;
-    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1em;
 
 }
 
-.baggrund {}
+#forside .column {
 
-.simon {
+    flex-grow: 10;
+    flex-basis: 300px;
+    display: flex;
 
-    width: 15vw;
-    height: 15vw;
-    background-size: 50%;
-    top: 40vw;
-    left: 2vw;
-    position: relative;
+    justify-content: space-between;
+    margin: 1em;
+    border: 1em;
+    width: 10em;
+    height: 5em;
+    background-color: white;
+
+}
 
 
+#forside .kunst {
+    background-image: url(Artboard%204.png);
+    width: 100rem;
+    height: 100rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -6em;
+    ;
+    right: +1.5em;
+    max-width: 400px;
+
+
+}
+
+#forside .billede {
+
+    flex-grow: 10;
+    flex-basis: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    height: 20em;
+    top: -2em;
+    right: +1.5em;
+    margin: 0;
+    background-color: #827483;
+    position: absolute;
+    filter: opacity(90%);
+    max-width: 400px;
+
+}
+
+#forside .simon {
+    background-image: url(Artboard%201.png);
+    width: 10rem;
+    height: 8rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5em;
+    ;
+    left: 1em;
+    background-size: 80%;
+
+}
+
+
+#forside .tekst {
+
+    position: absolute;
+    color: white;
+    left: 15em;
+    top: 11em;
+    font-size: 0.6em;
+}
+
+#forside .box1 {
+    flex-grow: 10;
+    flex-basis: 10px;
+    display: flex;
+    position: absolute;
+    top: 15em;
+
+    border: 3em;
+    width: 17em;
+    height: 8em;
+    background-color: #FFB4A8;
+    border-radius: 8px;
+
+
+}
+
+#forside .box2 {
+    flex-grow: 10;
+    flex-basis: 10px;
+    display: flex;
+    position: absolute;
+    top: 25em;
+
+    border: 3em;
+    width: 17em;
+    height: 8em;
+    background-color: #FFB4A8;
+    border-radius: 8px;
+
+
+
+}
+
+#forside .box3 {
+  flex-grow: 10;
+    flex-basis: 10px;
+    display: flex;
+    background-color: #FFB4A8;
+    position: absolute;
+    top: 35em;
+
+    border: 3em;
+    width: 17em;
+    height: 8em;
+    background-color: #FFB4A8;
+    border-radius: 8px;
 }
