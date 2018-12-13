@@ -51,7 +51,14 @@ label{
     top: 220px;
     left: 140px;
 }
+.kealogo img{
+    width: 132px;
+    position:absolute;
+    z-index: 2;
+    top: 120px;
+    left: 70px;
 
+}
 .sprogknap{
     width:50px;
     position: absolute;
