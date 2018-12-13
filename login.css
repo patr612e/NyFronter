@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-a{
+.footer a{
     color: #FFFDFD;
 }
 #login{
@@ -29,6 +29,7 @@ input[type=submit]{
     background-color: #D37B79;
     margin-top: 30px;
     border: 0px;
+    width: 280px;
 }
 input[type=checkbox]{
     position: absolute;
@@ -43,30 +44,52 @@ label{
     height: 100vh;
     background-color: #69596A;
     position: relative;
+    justify-content: center;
+    display: flex;
+
+
 
 }
-.profilbillede img{
-    width: 100px;
+.profilbillede {
+
     position: absolute;
-    top: 220px;
-    left: 140px;
+    top: 50vw;
+    display: flex;
+    justify-content: center;
+
 }
 .kealogo img{
-    width: 132px;
+    width: 30vw;
     position:absolute;
     z-index: 2;
-    top: 120px;
-    left: 70px;
+    top: 30vw;
+    left: 20vw;
 
 }
+
+/*
+.sprogknap_parent{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+*/
+
 .sprogknap{
-    width:50px;
-    position: absolute;
+
+    width:10vw;
     z-index: 1;
+    top: 1vw;
+    left: 1vw;
+    position: absolute;
+
+
+
 }
 .kunst{
-     max-width: 400px;
-     position: relative;
+/*     max-width: 400px;*/
+     position: absolute;
+    width: 100%
 
 }
 
@@ -74,16 +97,17 @@ label{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 343px;
-    left: 65px;
-
-
+    top: 90vw;
+    justify-content: center;
 }
 
+.footerwrapper{
+    display: flex;
+    justify-content: center;
+}
 .footer{
-    position: absolute;
-    top: 700px;
-    left: 75px;
+    position: fixed;
+    top: 150vw;
     width: 250px;
     display: flex;
     justify-content: space-between;
